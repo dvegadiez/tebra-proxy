@@ -30,3 +30,5 @@ app.use(errorHandler);
 app.listen(PORT, () => {
   console.log(`🚀 Server escuchando en puerto ${PORT}`);
 });
+
+module.exports = app;
